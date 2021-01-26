@@ -56,6 +56,7 @@ public class Test {
 			break;
 		case 3:
 			System.out.println("Case3: Value is: " + num);
+			break;
 		default:
 			System.out.println("Default: Value is: " + num);
 		}
