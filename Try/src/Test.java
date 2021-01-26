@@ -52,6 +52,7 @@ public class Test {
 			System.out.println("Case1: Value is: " + num);
 		case 2:
 			System.out.println("Case2: Value is: " + num);
+			break;
 		case 3:
 			System.out.println("Case3: Value is: " + num);
 		default:
