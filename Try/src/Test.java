@@ -50,6 +50,7 @@ public class Test {
 		switch (num + 2) {
 		case 1:
 			System.out.println("Case1: Value is: " + num);
+			break;
 		case 2:
 			System.out.println("Case2: Value is: " + num);
 			break;
