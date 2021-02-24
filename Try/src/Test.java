@@ -4,6 +4,7 @@ import java.util.Hashtable;
 import java.util.Map;
 import java.util.concurrent.locks.StampedLock;
 
+
 public class Test {
 
 	public static void main1(String[] args) {
@@ -60,6 +61,13 @@ public class Test {
 		default:
 			System.out.println("Default: Value is: " + num);
 		}
+		
+		try {
+			System.out.println("Case1: Value is: ");
+		}catch(ArithmeticException | ArrayIndexOutOfBoundsException e){
+		    System.out.println("You should not divide a number by zero");
+		}
+		     
 	}
 
 }
